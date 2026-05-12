@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Álbum 26 — Legal</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f9f7f2;
+      color: #1a1a1a;
+      line-height: 1.6;
+      padding: 24px 16px 64px;
+    }
+    .container { max-width: 680px; margin: 0 auto; }
+    header {
+      border-bottom: 2px solid #1a1a1a;
+      padding-bottom: 20px;
+      margin-bottom: 32px;
+    }
+    header h1 { font-size: 28px; font-weight: 900; letter-spacing: -0.5px; }
+    header p { color: #666; font-size: 14px; margin-top: 4px; }
+    .lang-switch { margin-top: 12px; display: flex; gap: 8px; }
+    .lang-switch button {
+      padding: 4px 12px; border: 1.5px solid #1a1a1a; background: transparent;
+      border-radius: 20px; cursor: pointer; font-size: 13px; font-weight: 600;
+    }
+    .lang-switch button.active { background: #1a1a1a; color: #fff; }
+    .section-title {
+      font-size: 22px; font-weight: 900; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #ddd;
+    }
+    .block { margin-bottom: 16px; }
+    .block h3 { font-size: 13px; font-weight: 700; margin-bottom: 4px; }
+    .block p { font-size: 13px; color: #444; }
+    .divider { height: 1px; background: #ddd; margin: 40px 0; }
+    footer { font-size: 11px; color: #999; text-align: center; margin-top: 40px; }
+    [data-lang="en"] { display: none; }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <h1>Mi Álbum 26</h1>
+    <p id="subtitle-es">Términos y Condiciones · Política de Privacidad</p>
+    <p id="subtitle-en" style="display:none">Terms &amp; Conditions · Privacy Policy</p>
+    <div class="lang-switch">
+      <button class="active" onclick="setLang('es')">ES</button>
+      <button onclick="setLang('en')">EN</button>
+      <button onclick="setLang('pt')">PT</button>
+    </div>
+  </header>
+
+  <!-- ===================== ESPAÑOL ===================== -->
+  <div data-lang="es">
+    <div class="section-title">Términos y Condiciones</div>
+
+    <div class="block">
+      <h3>1. Aceptación</h3>
+      <p>Al usar Mi Álbum 26 aceptás estos términos. Si no estás de acuerdo, no uses la app.</p>
+    </div>
+    <div class="block">
+      <h3>2. Descripción del servicio</h3>
+      <p>Mi Álbum 26 es una app completamente gratuita para registrar figuritas del Mundial 2026 y participar en pronósticos con amigos. No tiene afiliación oficial con FIFA, la FIFA World Cup™, ni con ningún fabricante o distribuidor de figuritas (Panini u otros). No se comercializa contenido oficial de ninguna de estas entidades. La app no genera ingresos por publicidad, suscripción ni micropagos.</p>
+    </div>
+    <div class="block">
+      <h3>3. Cuenta de usuario</h3>
+      <p>Sos responsable de mantener la confidencialidad de tu contraseña. Notificá inmediatamente cualquier acceso no autorizado a tu cuenta.</p>
+    </div>
+    <div class="block">
+      <h3>4. Uso aceptable</h3>
+      <p>Está prohibido usar la app para actividades ilegales, distribuir contenido ofensivo, o intentar vulnerar la seguridad del servicio.</p>
+    </div>
+    <div class="block">
+      <h3>5. El Prode — entretenimiento sin apuestas</h3>
+      <p>La función de pronósticos ("Prode") es exclusivamente un juego de entretenimiento entre amigos o conocidos. No implica apuestas de dinero real dentro de la app, no otorga premios económicos, y no constituye un servicio de juego de azar regulado. El desarrollador no es responsable por acuerdos económicos que los usuarios realicen fuera de la app basándose en resultados del Prode. Cualquier apuesta externa es responsabilidad exclusiva de los participantes.</p>
+    </div>
+    <div class="block">
+      <h3>6. Propiedad intelectual</h3>
+      <p>El código, diseño y contenido de Mi Álbum 26 son propiedad del desarrollador. Las marcas de las selecciones son propiedad de sus respectivas asociaciones.</p>
+    </div>
+    <div class="block">
+      <h3>7. Limitación de responsabilidad</h3>
+      <p>La app se provee "como está". No nos hacemos responsables por pérdida de datos, errores en el fixture, ni por resultados de prodes.</p>
+    </div>
+    <div class="block">
+      <h3>8. Modificaciones</h3>
+      <p>Podemos actualizar estos términos en cualquier momento. El uso continuado de la app implica aceptación de los términos actualizados.</p>
+    </div>
+    <div class="block">
+      <h3>9. Contacto</h3>
+      <p>Para consultas: guido.burak@gmail.com</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="section-title">Política de Privacidad</div>
+
+    <div class="block">
+      <h3>1. Información que recopilamos</h3>
+      <p>Recopilamos tu email, nombre de usuario, y datos de uso (figuritas marcadas, pronósticos). No recopilamos información de pago ni datos de ubicación.</p>
+    </div>
+    <div class="block">
+      <h3>2. Cómo usamos la información</h3>
+      <p>Usamos tus datos para sincronizar tu colección entre dispositivos, mostrarte tu progreso, y calcular standings en prodes. No vendemos ni compartimos tus datos con terceros.</p>
+    </div>
+    <div class="block">
+      <h3>3. Almacenamiento</h3>
+      <p>Los datos se almacenan en servidores de Supabase (región Sudamérica). Se aplican medidas de seguridad estándar de la industria.</p>
+    </div>
+    <div class="block">
+      <h3>4. Notificaciones push</h3>
+      <p>Solo enviamos notificaciones locales programadas en tu dispositivo para recordarte partidos del Mundial. No usamos servicios de notificaciones push externas.</p>
+    </div>
+    <div class="block">
+      <h3>5. Tus derechos y eliminación de datos</h3>
+      <p>Podés eliminar tu cuenta y todos tus datos directamente desde la sección Perfil de la app. La eliminación es inmediata e irreversible. También podés solicitar la eliminación enviando un email a guido.burak@gmail.com, especialmente si ya no tenés acceso a tu cuenta.</p>
+    </div>
+    <div class="block">
+      <h3>6. Menores</h3>
+      <p>La app está destinada a mayores de 13 años. Si tenés menos de 13, necesitás autorización de un adulto.</p>
+    </div>
+    <div class="block">
+      <h3>7. Contacto</h3>
+      <p>Para consultas sobre privacidad: guido.burak@gmail.com</p>
+    </div>
+  </div>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <div data-lang="en" style="display:none">
+    <div class="section-title">Terms and Conditions</div>
+
+    <div class="block">
+      <h3>1. Acceptance</h3>
+      <p>By using My 26 Album you agree to these terms. If you disagree, do not use the app.</p>
+    </div>
+    <div class="block">
+      <h3>2. Service description</h3>
+      <p>My 26 Album is a completely free app to track World Cup 2026 sticker collections and participate in prediction pools with friends. It has no official affiliation with FIFA, the FIFA World Cup™, or any sticker manufacturer or distributor (Panini or others). No official content from these entities is commercialized. The app does not generate revenue through advertising, subscriptions, or in-app purchases.</p>
+    </div>
+    <div class="block">
+      <h3>3. User account</h3>
+      <p>You are responsible for maintaining the confidentiality of your password. Notify us immediately of any unauthorized access to your account.</p>
+    </div>
+    <div class="block">
+      <h3>4. Acceptable use</h3>
+      <p>It is prohibited to use the app for illegal activities, distribute offensive content, or attempt to compromise the security of the service.</p>
+    </div>
+    <div class="block">
+      <h3>5. The Pool — entertainment, not gambling</h3>
+      <p>The predictions feature ("Pool") is exclusively a social entertainment game among friends or acquaintances. It does not involve real-money wagers inside the app, does not award monetary prizes, and does not constitute a regulated gambling service. The developer is not responsible for any financial arrangements users may make outside the app based on Pool results. Any external betting is solely the responsibility of the participants.</p>
+    </div>
+    <div class="block">
+      <h3>6. Intellectual property</h3>
+      <p>The code, design and content of My 26 Album are property of the developer. Team badges are property of their respective associations.</p>
+    </div>
+    <div class="block">
+      <h3>7. Limitation of liability</h3>
+      <p>The app is provided "as is". We are not liable for data loss, fixture errors, or pool results.</p>
+    </div>
+    <div class="block">
+      <h3>8. Changes</h3>
+      <p>We may update these terms at any time. Continued use of the app implies acceptance of the updated terms.</p>
+    </div>
+    <div class="block">
+      <h3>9. Contact</h3>
+      <p>For inquiries: guido.burak@gmail.com</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="section-title">Privacy Policy</div>
+
+    <div class="block">
+      <h3>1. Information we collect</h3>
+      <p>We collect your email, display name, and usage data (marked stickers, predictions). We do not collect payment information or location data.</p>
+    </div>
+    <div class="block">
+      <h3>2. How we use information</h3>
+      <p>We use your data to sync your collection across devices, show your progress, and calculate pool standings. We do not sell or share your data with third parties.</p>
+    </div>
+    <div class="block">
+      <h3>3. Storage</h3>
+      <p>Data is stored on Supabase servers (South America region). Industry-standard security measures are applied.</p>
+    </div>
+    <div class="block">
+      <h3>4. Push notifications</h3>
+      <p>We only send locally scheduled notifications on your device to remind you of World Cup matches. We do not use external push notification services.</p>
+    </div>
+    <div class="block">
+      <h3>5. Your rights and data deletion</h3>
+      <p>You can delete your account and all your data directly from the Profile section of the app. Deletion is immediate and irreversible. You can also request deletion by emailing guido.burak@gmail.com, especially if you no longer have access to your account.</p>
+    </div>
+    <div class="block">
+      <h3>6. Minors</h3>
+      <p>The app is intended for users 13 years or older. If you are under 13, you need parental consent.</p>
+    </div>
+    <div class="block">
+      <h3>7. Contact</h3>
+      <p>For privacy inquiries: guido.burak@gmail.com</p>
+    </div>
+  </div>
+
+  <!-- ===================== PORTUGUÊS ===================== -->
+  <div data-lang="pt" style="display:none">
+    <div class="section-title">Termos e Condições</div>
+
+    <div class="block">
+      <h3>1. Aceitação</h3>
+      <p>Ao usar Meu Álbum 26 você aceita estes termos. Se discordar, não use o app.</p>
+    </div>
+    <div class="block">
+      <h3>2. Descrição do serviço</h3>
+      <p>Meu Álbum 26 é um app completamente gratuito para registrar figurinhas da Copa 2026 e participar de bolões com amigos. Não tem afiliação oficial com a FIFA, a FIFA World Cup™, nem com nenhum fabricante ou distribuidor de figurinhas (Panini ou outros). Nenhum conteúdo oficial dessas entidades é comercializado. O app não gera receita por publicidade, assinatura nem micropagamentos.</p>
+    </div>
+    <div class="block">
+      <h3>3. Conta de usuário</h3>
+      <p>Você é responsável por manter a confidencialidade da sua senha. Notifique imediatamente qualquer acesso não autorizado à sua conta.</p>
+    </div>
+    <div class="block">
+      <h3>4. Uso aceitável</h3>
+      <p>É proibido usar o app para atividades ilegais, distribuir conteúdo ofensivo, ou tentar comprometer a segurança do serviço.</p>
+    </div>
+    <div class="block">
+      <h3>5. O Bolão — entretenimento, sem apostas</h3>
+      <p>A função de palpites ("Bolão") é exclusivamente um jogo de entretenimento entre amigos ou conhecidos. Não envolve apostas em dinheiro real dentro do app, não concede prêmios financeiros e não constitui um serviço de jogo de azar regulamentado. O desenvolvedor não é responsável por acordos financeiros que os usuários realizem fora do app com base nos resultados do Bolão. Qualquer aposta externa é de responsabilidade exclusiva dos participantes.</p>
+    </div>
+    <div class="block">
+      <h3>6. Propriedade intelectual</h3>
+      <p>O código, design e conteúdo do Meu Álbum 26 são propriedade do desenvolvedor. Os escudos das seleções são propriedade de suas respectivas associações.</p>
+    </div>
+    <div class="block">
+      <h3>7. Limitação de responsabilidade</h3>
+      <p>O app é fornecido "como está". Não nos responsabilizamos por perda de dados, erros na tabela, nem por resultados de bolões.</p>
+    </div>
+    <div class="block">
+      <h3>8. Alterações</h3>
+      <p>Podemos atualizar estes termos a qualquer momento. O uso continuado do app implica aceitação dos termos atualizados.</p>
+    </div>
+    <div class="block">
+      <h3>9. Contato</h3>
+      <p>Para consultas: guido.burak@gmail.com</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="section-title">Política de Privacidade</div>
+
+    <div class="block">
+      <h3>1. Informações que coletamos</h3>
+      <p>Coletamos seu e-mail, nome de usuário e dados de uso (figurinhas marcadas, palpites). Não coletamos informações de pagamento nem dados de localização.</p>
+    </div>
+    <div class="block">
+      <h3>2. Como usamos as informações</h3>
+      <p>Usamos seus dados para sincronizar sua coleção entre dispositivos, mostrar seu progresso e calcular classificações nos bolões. Não vendemos nem compartilhamos seus dados com terceiros.</p>
+    </div>
+    <div class="block">
+      <h3>3. Armazenamento</h3>
+      <p>Os dados são armazenados em servidores da Supabase (região América do Sul). Medidas de segurança padrão do setor são aplicadas.</p>
+    </div>
+    <div class="block">
+      <h3>4. Notificações push</h3>
+      <p>Enviamos apenas notificações locais agendadas no seu dispositivo para lembrá-lo dos jogos da Copa. Não usamos serviços externos de notificações push.</p>
+    </div>
+    <div class="block">
+      <h3>5. Seus direitos e exclusão de dados</h3>
+      <p>Você pode excluir sua conta e todos os seus dados diretamente na seção Perfil do app. A exclusão é imediata e irreversível. Você também pode solicitar a exclusão enviando um e-mail para guido.burak@gmail.com, especialmente se não tiver mais acesso à sua conta.</p>
+    </div>
+    <div class="block">
+      <h3>6. Menores</h3>
+      <p>O app é destinado a maiores de 13 anos. Se tiver menos de 13, precisa de autorização de um adulto.</p>
+    </div>
+    <div class="block">
+      <h3>7. Contato</h3>
+      <p>Para consultas sobre privacidade: guido.burak@gmail.com</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Última actualización / Last updated / Última atualização: 2026-05-12</p>
+  </footer>
+
+</div>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('[data-lang]').forEach(el => {
+      el.style.display = el.dataset.lang === lang ? '' : 'none';
+    });
+    document.querySelectorAll('.lang-switch button').forEach((btn, i) => {
+      btn.classList.toggle('active', ['es','en','pt'][i] === lang);
+    });
+    document.getElementById('subtitle-es').style.display = lang === 'es' ? '' : 'none';
+    document.getElementById('subtitle-en').style.display = lang === 'en' ? '' : 'none';
+    document.documentElement.lang = lang;
+  }
+</script>
+</body>
+</html>
