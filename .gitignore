@@ -1,0 +1,8 @@
+# Archivos internos de desarrollo — no son contenido público
+context.md
+CLAUDE.md
+.claude/
+
+# Sistema
+.DS_Store
+Thumbs.db
